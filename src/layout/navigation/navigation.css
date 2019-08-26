@@ -1,0 +1,32 @@
+.navigation {
+    background-color: #f4f4f4;  
+    display: flex;
+    justify-content: center;  
+}
+
+.navigation__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation__item a {
+    color: #050505;
+    text-decoration: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;    
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+}
+
+.navigation__item a:hover{
+  background-color: rgba(0,0,0,.2);
+  border-bottom: 3px solid red;
+}
